@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Caviar';
+}
+
+    @font-face {
+        font-family:'Kindle';
+        src: url('KindelSerif_PersonalUse.otf') format('opentype');
+    }
+
+    @font-face {
+        font-family:'Caviar';
+        src: url('CaviarDreams.ttf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #012340a8;
+    width: 1000px;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(159, 219, 159);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Kindle';
+    text-align: center;
+    font-weight: 500;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+}
+
+#gta {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-family: 'Kindle';
+    text-align: center;
+}
+
+#CS {
+    display: flex;
+    justify-content: center;
+}
+
+#cold {
+    display: flex;
+    justify-content: center;
+}
+
+#mine {
+    display: flex;
+    justify-content: center;
+}
