@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+:root {
+      --rosa: #fcd5ce;
+      --cremeescuro: #faf0d9;
+      --lilas: #e0bbf6;
+      --creme: #fff1e6;
+      --marrom: #6b4f4f;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--cremeescuro);
+      color: var(--marrom);
+      line-height: 1.6;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    header {
+      border-bottom: 2px solid rgba(114, 105, 105, 0.178);
+      background-color: var(--cremeescuro);
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      width: 300px;
+      padding: 0px;
+      text-align: center;
+      
+    }
+
+    .portfolio {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .portfolio h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      font-family: 'Great Vibes', cursive;
+    }
+
+    .portfolio h3 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.5rem;
+      font-family: 'Great Vibes', cursive;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .bolo {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .bolo img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .bolo h3 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 1.5rem;
+      margin: 10px 0 5px;
+    }
+
+    .bolo p {
+      font-weight: bold;
+    }
+
+    section a.inicio {
+      font-weight: bolder;
+      color: var(--marrom);
+    }
+
+    section a.inicio:hover {
+      background-color: rgba(0, 0, 0, 0.267);
+      border-radius: 5px;
+      padding: 5px;
+    }
+
+    aside {
+      background-color: var(--cremeescuro);
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.233);
+    }
+
+    aside > h3 {
+      background-color: var(--marrom);
+      color: white;
+      padding: 10px;
+      margin: -10px -10px 0px -10px;
+      border-radius: 10px 10px 0px 0px;
+    }
+
+    aside > ul {
+      list-style-position: inside;
+    }
+
+    footer {
+      border-top: 2px solid rgba(114, 105, 105, 0.178);
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .galeria {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
